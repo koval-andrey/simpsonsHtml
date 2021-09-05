@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "lato", sans-serif;
+color: antiquewhite;
+}
+.navbar {
+  background-color: aqua;
+  height: 70px;
+  padding: 0 30px;  
+}
+.container-body {
+    margin: 0 20px;
+    overflow: visible;
+    max-width: 1200px;
+}
+
+.container {
+margin: 0 50px;
+overflow: visible;
+max-width: 1200px;
+}
+
+.navbar .flex {
+  display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 100%; 
+}
+
+.navbar ul {
+   display: flex; 
+}
+.navbar a {
+    color: gray;
+    padding: 9px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    color: gold;
+    border-bottom: 3px solid gold;
+}
+.navbar h1 {
+   font-size: 30px;
+   color: coral;
+   font-weight: 300;
+   margin: 10px 0; 
+   line-height: 1.2;
+}
+
+li {
+    list-style-type: none;
+
+}
+
+.showcase {
+ height: 300px;
+ background-color: cornflowerblue;   
+}
+.showcase h2 {
+    font-size: 30px;
+    color: coral;
+    font-weight: 200;
+    margin: 10px 0; 
+    line-height: 1.2; 
+}
+.showcase p {
+    margin-bottom: 30px;
+}
+
+.showcase img {
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2);  
+}
+.showcase_form {
+   padding-left: 8px;
+   margin: auto; 
+}
+.grid {
+   display: grid;
+   overflow: visible; 
+   grid-template-columns: 60% 40%;
+}
+.grid_item_1, .grid_item_2 {
+   position: relative;
+   top: 50px; 
+}
+.showcase input[type="email"] {
+   padding: 10px 70px 10px 0;
+   font-size: 14px;
+   padding-left: 60px ;
+   border: none;
+   border-radius: 6px;
+}
+
+.btn {
+border-radius: 6px;
+background: #9867C5;
+border: none;
+padding: 12px 20px;
+margin-left: 10px;
+color: white;
+font-size: 16px;
+cursor: pointer;
+box-shadow: 0 10px 10px rgba(216, 151, 151, 0.2);
+}
+.litle_info 
+{
+    font-size: 15px;
+    font-family: "poppins", sans-serif;  
+}
+
+.lower_container {
+margin: 120px auto;
+padding: 0;
+max-width: 1400px;
+}
+
+.stats {
+    padding: 45px 50px;
+    text-align: center;
+}
+
+.flex {
+display: flex;
+justify-content: space-around;
+}
+.fa-folder-open {
+color: darksalmon;
+}
+
+.title {
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.text {
+    color: black;
+    font-size: 19px;
+    width: 100%;
+    padding: 10px;
+    margin: 0, 20px;
+    text-align: justify;
+}
+.testimonial {
+    color: black;
+    padding: 40px;
+}
+
+.testimonial h3 {
+   text-align: center; 
+}
+.grid3 {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 60px; 
+}
+.card {
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: -7px -7px 20px rgba(0, 0, 0, 0.2),
+               7px  7px 20px rgba(0, 0, 0, 0.2)  
+}
+.testimonial img {
+    background-color: white;
+    border:3px solid purple;
+    height:90px;
+    position: relative;
+    top: -30px;
+    left: 30%;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:90px;
+}
